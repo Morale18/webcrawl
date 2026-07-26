@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(make *)",
+      "Bash(curl -sI https://google.com -m 5)",
+      "Bash(gcc *)",
+      "Bash(ulimit -c unlimited)",
+      "Bash(timeout 60 gdb -q -batch -ex run -ex bt -ex \"info threads\" --args ./crawler_dbg https://google.com 2 2)",
+      "Bash(timeout 30 ./crawler https://google.com 8 2)",
+      "Bash(echo \"EXIT CODE: $?\")"
+    ]
+  }
+}
