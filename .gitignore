@@ -2,5 +2,6 @@
 *.out
 a.out
 webcrawl
-**/_dbg
+
+crawler_dbg
 build/
